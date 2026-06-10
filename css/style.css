@@ -32,7 +32,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 14px;
 
     text-decoration: none;
     color: white;
@@ -41,12 +41,22 @@ body {
 .logo img {
     width: 42px;
     height: 42px;
+
+    display: block;
 }
 
 .logo span {
     font-size: 24px;
     font-weight: 700;
-    line-height: 1;
+}
+
+.about-link {
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 24px;
+    font-weight: 700;
 }
 
 /* About Me */
