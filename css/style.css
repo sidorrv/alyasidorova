@@ -5,33 +5,59 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background: #050505;
+    font-family: "Open Sans", sans-serif;
 }
 
-header {
-    padding: 20px 50px;
-    border-bottom: 1px solid #e5e5e5;
+/* Хедер */
+
+.header {
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding-bottom: 35px;
+
+    border-bottom: 1px solid #ffffff;
 }
 
-nav a {
-    text-decoration: none;
-    color: #222;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    opacity: 0.6;
-}
+/* Логотип */
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    width: 64px;
+    height: 64px;
+}
+
+.logo span {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* About Me */
+
+.about-link {
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 33px;
+    font-weight: 700;
+
+    line-height: 1;
 }
