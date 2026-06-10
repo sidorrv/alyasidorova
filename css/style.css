@@ -89,4 +89,10 @@ body {
     font-weight: 700;
 
     line-height: 1;
+
+    transition: color 0.3s ease;
+}
+
+.about-link:hover {
+    color: #00B3FF;
 }
