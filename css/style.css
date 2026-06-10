@@ -36,13 +36,37 @@ body {
 
     text-decoration: none;
     color: white;
+
+    transition: color 0.3s ease;
 }
 
-.logo img {
+.logo-icon {
+    position: relative;
+
+    width: 42px;
+    height: 42px;
+}
+
+.logo-icon img {
+    position: absolute;
+    inset: 0;
+
     width: 42px;
     height: 42px;
 
-    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.logo-hover-img {
+    opacity: 0;
+}
+
+.logo:hover .logo-hover-img {
+    opacity: 1;
+}
+
+.logo:hover .logo-default {
+    opacity: 0;
 }
 
 .logo span {
@@ -50,13 +74,8 @@ body {
     font-weight: 700;
 }
 
-.about-link {
-    text-decoration: none;
-
-    color: white;
-
-    font-size: 24px;
-    font-weight: 700;
+.logo:hover {
+    color: #00B3FF;
 }
 
 /* About Me */
