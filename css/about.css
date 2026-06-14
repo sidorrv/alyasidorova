@@ -1,1 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background: #050505;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Хедер */
+
+.header {
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 35px;
+
+    border-bottom: 1px solid #ffffff;
+}
+
+/* Логотип */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    text-decoration: none;
+    color: white;
+
+    transition: color 0.3s ease;
+}
+
+.logo-icon {
+    position: relative;
+
+    width: 42px;
+    height: 42px;
+}
+
+.logo-icon img {
+    position: absolute;
+    inset: 0;
+
+    width: 42px;
+    height: 42px;
+
+    transition: opacity 0.3s ease;
+}
+
+.logo-hover-img {
+    opacity: 0;
+}
+
+.logo:hover .logo-hover-img {
+    opacity: 1;
+}
+
+.logo:hover .logo-default {
+    opacity: 0;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo:hover {
+    color: #00B3FF;
+}
+
+/* About Me */
+
+.about-link {
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 24px;
+    font-weight: 700;
+
+    line-height: 1;
+
+    transition: color 0.3s ease;
+}
+
+.about-link:hover {
+    color: #00B3FF;
+}
